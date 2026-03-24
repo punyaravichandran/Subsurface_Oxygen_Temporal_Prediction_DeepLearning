@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "YOUR_NAME_HERE"
-  given-names: "YOUR_NAME_HERE"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Lisa"
+- family-names: "P"
+  given-names: "PUNYA"
+  orcid: "https://orcid.org/0000-0002-3116-8338"
+- family-names: "RUBIO"
   given-names: "Mona"
   orcid: "https://orcid.org/0000-0000-0000-0000"
 title: "Subsurface_Oxygen_Temporal_Prediction_DeepLearning"
