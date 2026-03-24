@@ -110,14 +110,12 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 # Model Definition
 model = Sequential([
-    Bidirectional(LSTM(32, return_sequences=True, activation='relu'),
-                  input_shape=(time_steps, X_train.shape[2])),
-    Dropout(0.3),
-    Conv1D(32, kernel_size=2, activation='relu'),
-    MaxPooling1D(2),
-    Bidirectional(LSTM(64, activation='relu')),
-    Dropout(0.3),
-    Dense(100, activation='relu', kernel_regularizer=l2(0.001)),
+    Bidirectional(SimpleRNN(units=16, return_sequences=True, activation='relu', input_shape=(time_steps, X_train.shape[2]))), # Replace look_back with time_steps
+    Conv1D(filters=16, kernel_size=2, activation='relu'),
+    MaxPooling1D(pool_size=2),
+    Bidirectional(LSTM(50, activation='relu', return_sequences=False)),
+    Dropout(0.2),
+    Dense(50, activation='relu', kernel_regularizer=l2(0.001)),
     Dense(1)
 ])
 
