@@ -2,13 +2,14 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
 - family-names: "P"
-  given-names: "PUNYA"
+  given-names: "Punya"
   orcid: "https://orcid.org/0000-0002-3116-8338"
-- family-names: "RUBIO"
-  given-names: "Mona"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Rubio"
+  given-names: "José Manuel Echevarría"
+  orcid: "https://orcid.org/0009-0003-5332-8683"
+- family-names: "Mullan"
+  given-names: "Sean"
 title: "Subsurface_Oxygen_Temporal_Prediction_DeepLearning"
 version: 1.0.0
-doi: 10.5281/zenodo.1234
 date-released: 2026-03-24
 url: "https://github.com/punyaravichandran/Subsurface_Oxygen_Temporal_Prediction_DeepLearning"
