@@ -11,5 +11,6 @@ authors:
   given-names: "Sean"
 title: "Subsurface_Oxygen_Temporal_Prediction_DeepLearning"
 version: 1.0.0
+DOI: 10.5281/zenodo.19468057
 date-released: 2026-03-24
 url: "https://github.com/punyaravichandran/Subsurface_Oxygen_Temporal_Prediction_DeepLearning"
