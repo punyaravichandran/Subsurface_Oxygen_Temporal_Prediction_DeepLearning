@@ -6,4 +6,4 @@ Hybrid RNN + LSTM deep learning model to predict sub-surface dissolved oxygen co
 - Salinity  
 - Pressure  
 
-Punya, P., Rubio, J.S.M., & Mullan, S. (2026). Monitoring and Prediction of Subsurface Dissolved Oxygen Concentration using Deep Learning Techniques. IEEE Mediterranean and Middle-East Geoscience and Remote Sensing Symposium (M2GARSS 2026).  
+Punya, P., Rubio, J.S.M., & Mullan, S. (2026). Monitoring and Prediction of Subsurface Dissolved Oxygen Concentration using Deep Learning Techniques. 
